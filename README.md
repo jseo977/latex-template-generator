@@ -1,7 +1,7 @@
 # latex-template-generator
 A python script that can automate generating multiple latex files and `.pdf` files from a single template, given the template and `.csv` files of attributes.
 
-With the template in another folder called 'template', which has the template and all of the dependent code (eg. image, package files), and a `.csv` file in the root directory (with the script).
+With the template in another folder called 'template', which has the template and all of the dependent files (eg. image, package files), and a `.csv` file in the root directory (with the script).
 
 The headers of the `.csv` should have the keywords that each element of the subsequent rows will replace it with.
 
