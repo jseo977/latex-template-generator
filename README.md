@@ -7,6 +7,6 @@ The headers of the `.csv` should have the keywords that each element of the subs
 
 The template code is called `random.tex` in this script, change as needed.
 
-Run `latexmk -pdf` from the command line in the working directory with all the `.tex` files to compile them and generate the corresponding `.pdf` files.
+Run `python csv_to_pdf.py` to generate the multiple `.tex` files, and `latexmk -pdf` from the command line in the working directory with all the `.tex` files to compile them and generate the corresponding `.pdf` files.
 
 Written in mid-2020 for the NZPMC student competition in 2020 for automating certificate generation for hundreds of students.
